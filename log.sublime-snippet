@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+debug.log("${1:DEBUG}", "{2:Log Message...}\n");
+]]></content>
+	<tabTrigger>log</tabTrigger>
+	<scope>source.js</scope>
+	<description>ImageNow iScript Debug Log</description>
+</snippet>
