@@ -7,6 +7,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>js</string>
+		<string>inow.js</string>
 	</array>
 	<key>name</key>
 	<string>iScript</string>
@@ -705,11 +706,17 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Class Time</string>
+			<string>ImageNow Object Class</string>
 			<key>match</key>
-			<string>\b(INAutoForm|INBizList|INBizListItem|INClassProp|INDocManager|INDocPriv|INDocType|INDocTypeList|INDocument|INDrawer|INExternMsg|INFont|INGroup|INInstanceProp|INKeys|INLib|INLogicalObject|INMail|INOsm|INPriv|INPrivEnum|INProject|INProjManager|INProjectType|INProjTypeList|INProperty|INRemoteService|INRetentionHold|INSequence|INShortcut|INSubObject|INSubobPriv|INSubobTemplate|INTask|INTaskTemplate|INUser|INVersion|INView|INWfAdmin|INWfItem|INWfQueue|INWfQueuePriv|INWorksheet|INWsDataDef|INWsPresentation)\b</string>
+			<string>\b(IN(AutoForm|Biz(List|ListItem)|ClassProp|D(oc(Manager|Priv|Type|TypeList|ument)|rawer)|ExternMsg|Font|Group|InstanceProp|Keys|Lib|LogicalObject|Mail|Osm|Pr(iv(Enum|)|o(j(ect|Manager|ectType|TypeList)|perty))|Re(moteService|tentionHold)|S(equence|hortcut|ub(Object|ob(Priv|Template)))|Task(|Template)|User|V(ersion|iew)|W(f(Admin|Item|Queue|QueuePriv)|orksheet|s(DataDef|Presentation))))\b</string>
 			<key>name</key>
 			<string>support.class.js</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?&lt;=\.)()</string>
+			<key>name</key>
+			<string>support.constant.dom.js</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
