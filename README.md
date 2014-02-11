@@ -3,13 +3,33 @@ ImageNow iScript
 
 This is a Sublime Text Language Package for ImageNow's iScript Language.
 
-Installation
-==============
+Installing
+==========
 
-To install this package pull the Git repository into the Packages directory of Sublime Text 2.
+Without Git: Download the latest source from GitHub and copy the SublimeLinter folder to your Sublime Text "Packages" directory.
 
-To open the Packages directory in Windows you can either go to `C:\Users\<<user_name>>\AppData\Roaming\Sublime Text 2\Packages\`
+With Git: Clone the repository in your Sublime Text "Packages" directory:
 
-or
+```
+git clone https://github.com/SublimeLinter/SublimeLinter.git
+```
 
-In the Sublime Text 2 Menu go to `Preferences -> Browse Packages...`
+The "Packages" directory is located at:
+
+OS X:
+
+```
+~/Library/Application Support/Sublime Text 2/Packages/
+```
+
+Linux:
+
+```
+~/.config/sublime-text-2/Packages/
+```
+
+Windows:
+
+```
+%APPDATA%/Sublime Text 2/Packages/
+```
