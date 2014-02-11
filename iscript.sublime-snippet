@@ -18,7 +18,6 @@
 #define LOG_TO_FILE true
 #define DEBUG_LEVEL 5
 
-#link "sedbc"
 #include "../script/STL/packages/Logging/iScriptDebug.js";
 
 var debug;
