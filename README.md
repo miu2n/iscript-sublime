@@ -11,7 +11,7 @@ Without Git: Download the latest source from GitHub and copy the SublimeLinter f
 With Git: Clone the repository in your Sublime Text "Packages" directory:
 
 ```
-git clone https://github.com/SublimeLinter/SublimeLinter.git
+git clone https://github.com/miu2n/iscript-sublime.git
 ```
 
 The "Packages" directory is located at:
